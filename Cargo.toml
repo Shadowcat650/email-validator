@@ -1,0 +1,16 @@
+[package]
+name = "email-validator"
+version = "0.1.0"
+edition = "2024"
+license = "CC0-1"
+description = "An email syntax validator"
+repository = "https://github.com/Shadowcat650/email-validator"
+readme = "README.md"
+keywords = ["email", "validator", "syntax"]
+categories = ["email", "no-std", "no-std::no-alloc"]
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
